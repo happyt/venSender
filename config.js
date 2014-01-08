@@ -42,6 +42,10 @@ var Vent = {
                 dlog('client open');
             });
 
+        this.socket.on('data', function(data) {
+            dlog('received: ' + data);
+        });
+
         this.socket.on('end', function() {
             this.live = false;
             dlog('client ended');
@@ -63,16 +67,14 @@ var Vent = {
         this.socket.on('connect', function() {
             dlog('client connected');
         });
-
-        this.socket.on('data', function(data) {
-            dlog('received: ' + data);
-        });
-
-
     },
 
     version: function() {
         this.sendCommand("v.version");
+    },
+
+    ping: function() {
+        this.sendCommand("ventuz.ping");
     },
 
     sendCommand: function(cmd) {
@@ -84,8 +86,8 @@ var Vent = {
             this.open();
         }
 
-        this.socket.write(cmd + '\n');
-        dlog("sent...: " + cmd);
+        this.socket.write(cmd + "\r\n");
+//        dlog("sent...: " + cmd);
     },
 
     close: function() {

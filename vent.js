@@ -65,12 +65,14 @@ rl.on('line', function(cmd) {
         //
         if (cmd === "v") {
             vent.version();
+        } else if (cmd === "p") {
+            vent.ping();
         } else if (cmd === "d") {
             vent.destroy();
         } else if (cmd === "e") {
             vent.end();
-        } else if (cmd === "z") {
-            vent.sendCommand("version");
+        } else {
+            vent.sendCommand(cmd);
         }
         //    console.log('You typed:', cmd);
         //    console.log('Type "quit" to exit');

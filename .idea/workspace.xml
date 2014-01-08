@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6283ef3-1961-48fe-ad5d-1b68fa09d3f4" name="Default" comment="" />
+    <list default="true" id="e6283ef3-1961-48fe-ad5d-1b68fa09d3f4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vent.js" afterPath="$PROJECT_DIR$/vent.js" />
+    </list>
     <ignored path="venSender.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +29,7 @@
       <file leaf-file-name="config.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="13" selection-start="1804" selection-end="1889" vertical-scroll-proportion="0.71428573" vertical-offset="1258" max-vertical-offset="1989">
+            <state line="103" column="44" selection-start="2100" selection-end="2100" vertical-scroll-proportion="3.0357144" vertical-offset="306" max-vertical-offset="2023">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -37,7 +40,7 @@
       <file leaf-file-name="vent.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="10" selection-start="1352" selection-end="1352" vertical-scroll-proportion="-4.08" vertical-offset="867" max-vertical-offset="1564">
+            <state line="16" column="8" selection-start="382" selection-end="382" vertical-scroll-proportion="-3.8" vertical-offset="177" max-vertical-offset="1598">
               <folding />
             </state>
           </provider>
@@ -88,8 +91,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="168" />
-    <option name="y" value="657" />
+    <option name="x" value="59" />
+    <option name="y" value="584" />
     <option name="width" value="896" />
     <option name="height" value="636" />
   </component>
@@ -197,6 +200,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e6283ef3-1961-48fe-ad5d-1b68fa09d3f4" name="Default" comment="" />
@@ -206,16 +226,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="168" y="657" width="896" height="636" extended-state="0" />
+    <frame x="59" y="584" width="896" height="636" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868525" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19090909" sideWeight="0.67071056" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19090909" sideWeight="0.6713147" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -236,6 +257,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -264,14 +286,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="10" selection-start="1352" selection-end="1352" vertical-scroll-proportion="-4.08" vertical-offset="867" max-vertical-offset="1564">
+        <state line="16" column="8" selection-start="382" selection-end="382" vertical-scroll-proportion="-3.8" vertical-offset="177" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="13" selection-start="1804" selection-end="1889" vertical-scroll-proportion="0.71428573" vertical-offset="1258" max-vertical-offset="1989">
+        <state line="103" column="44" selection-start="2100" selection-end="2100" vertical-scroll-proportion="3.0357144" vertical-offset="306" max-vertical-offset="2023">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
