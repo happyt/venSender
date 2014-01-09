@@ -42,10 +42,7 @@ var Vent = {
                 dlog('client open');
             });
 
-        this.socket.on('data', function(data) {
-            dlog('received: ' + data);
-        });
-
+ e
         this.socket.on('end', function() {
             this.live = false;
             dlog('client ended');
