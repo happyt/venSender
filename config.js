@@ -26,7 +26,7 @@ var Config =  {
 
 var Vent = {
 
-    ip: '172.20.69.56',
+    ip: '172.20.69.56',  //  ip: '127.0.0.1',
     port: 19201,
     live: true,
     socket: 0,
@@ -42,7 +42,10 @@ var Vent = {
                 dlog('client open');
             });
 
- e
+        this.socket.on('data', function(data) {
+            dlog('received: ' + data);
+        });
+
         this.socket.on('end', function() {
             this.live = false;
             dlog('client ended');
